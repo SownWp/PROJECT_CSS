@@ -1,0 +1,14 @@
+{
+  "name": "resonances",
+  "version": "1.0.0",
+  "description": "Intégration du site du festival Résonances : bibliothèque de composants Sass (SMACSS + BEM)",
+  "private": true,
+  "scripts": {
+    "sass:build": "sass scss/main.scss css/style.css --no-source-map",
+    "sass:watch": "sass --watch scss/main.scss css/style.css --no-source-map"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}
