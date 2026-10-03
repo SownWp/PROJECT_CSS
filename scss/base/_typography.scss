@@ -1,36 +1,36 @@
-// Base : typographie des éléments HTML, d'après le guide visuel
+// Base : typographie des éléments HTML, d'après le figma 
 body {
   font-family: "Inter", system-ui, sans-serif;
-  font-size: 16px;
+  font-size: var(--size-body);
   line-height: 26px;
-  color: #3a3950; 
+  color: var(--color-text-body);
 }
 
 h1,
 h2,
 h3 {
-  color: #1c1b2e; 
+  color: var(--color-text);
 }
 
 h1 {
-  font-size: 56px;
+  font-size: var(--size-display);
   font-weight: 800;
-  line-height: 64px;  
+  line-height: 64px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: var(--size-title);
   font-weight: 700;
-  line-height: 48px; 
+  line-height: 48px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: var(--size-subtitle);
   font-weight: 700;
-  line-height: 36px; 
+  line-height: 36px;
 }
 
 small {
-  font-size: 14px;
-  line-height: 22px; 
+  font-size: var(--size-small);
+  line-height: 22px;
 }
