@@ -1,0 +1,36 @@
+// Base : typographie des éléments HTML, d'après le guide visuel
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3a3950; 
+}
+
+h1,
+h2,
+h3 {
+  color: #1c1b2e; 
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;  
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px; 
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px; 
+}
+
+small {
+  font-size: 14px;
+  line-height: 22px; 
+}
