@@ -1,3 +1,72 @@
+:root {
+  --color-text: #1c1b2e;
+  --color-text-body: #3a3950;
+  --color-text-muted: #6b6a80;
+  --color-background: #ffffff;
+  --color-background-alt: #f4f5f7;
+  --color-border: #e3e5ea;
+  --color-border-field: #cbd0d8;
+  --color-primary: #c8402a;
+  --color-primary-hover: #a3311f;
+  --color-accent: #f4c95d;
+  --color-error: #b3261e;
+  --color-lake: #1f4e8c;
+  --color-on-lake: #ffffff;
+  --color-forest: #2f6b3a;
+  --color-on-forest: #ffffff;
+  --color-kiosk: #b87a1e;
+  --color-on-kiosk: #1c1b2e;
+  --size-display: 56px;
+  --size-title: 40px;
+  --size-subtitle: 28px;
+  --size-lead: 20px;
+  --size-body: 16px;
+  --size-label: 15px;
+  --size-small: 14px;
+  --size-caption: 12px;
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 40px;
+  --spacing-xl: 64px;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3a3950;
+}
+
+h1,
+h2,
+h3 {
+  color: #1c1b2e;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+small {
+  font-size: 14px;
+  line-height: 22px;
+}
+
 *,
 *::before,
 *::after {
@@ -24,40 +93,4 @@ textarea,
 select {
   font: inherit;
   color: inherit;
-}
-
-body {
-  font-family: "Inter", system-ui, sans-serif;
-  font-size: 1rem;
-  line-height: 1.625rem;
-  color: #3a3950;
-}
-
-h1,
-h2,
-h3 {
-  color: #1c1b2e;
-}
-
-h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
-  line-height: 4rem;
-}
-
-h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 3rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  line-height: 2.25rem;
-}
-
-small {
-  font-size: 0.875rem;
-  line-height: 1.375rem;
 }
