@@ -75,3 +75,17 @@ $breakpoints: (
   "tablet": 768px,
   "desktop": 1024px,
 );
+
+// Dimensions fixes de la mise en page
+$dimensions: (
+  "container": 1200px, 
+  "label": 240px, 
+  "swatch": 48px, 
+  "stage": 180px, 
+);
+
+
+$borders: (
+  "thin": 1px,
+  "thick": 2px,
+);

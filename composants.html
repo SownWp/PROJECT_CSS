@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliothèque de composants · Résonances</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="l-styleguide">
+
+  <header class="l-styleguide__hero">
+    <div class="l-styleguide__container">
+      <p class="l-styleguide__breadcrumb">Accueil / Bibliothèque de composants</p>
+      <h1 class="l-styleguide__title">Bibliothèque de composants</h1>
+      <p class="l-styleguide__intro">Tous les composants du site, avec leurs variantes et leurs états.</p>
+    </div>
+  </header>
+
+  <main class="l-styleguide__container">
+
+    <nav class="l-styleguide__toc" aria-label="Sommaire">
+      <a class="l-styleguide__toc-link" href="#jetons">Jetons</a>
+      <a class="l-styleguide__toc-link" href="#boutons">Boutons</a>
+      <a class="l-styleguide__toc-link" href="#badges">Badges</a>
+      <a class="l-styleguide__toc-link" href="#cartes">Cartes</a>
+      <a class="l-styleguide__toc-link" href="#formulaires">Formulaires</a>
+      <a class="l-styleguide__toc-link" href="#filtres">Filtres</a>
+      <a class="l-styleguide__toc-link" href="#faq">Questions fréquentes</a>
+    </nav>
+
+    <section class="l-styleguide__section" id="jetons">
+      <h2 class="l-styleguide__section-title">Jetons</h2>
+      <p class="l-styleguide__section-intro">Couleurs, typographie et espacements utilisés par tous les composants.</p>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Couleurs</p>
+        <div class="l-styleguide__examples">
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--text"></span>
+            <figcaption class="l-styleguide__caption">Texte principal<br>#1C1B2E</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--text-body"></span>
+            <figcaption class="l-styleguide__caption">Texte courant<br>#3A3950</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--text-muted"></span>
+            <figcaption class="l-styleguide__caption">Texte secondaire<br>#6B6A80</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--background"></span>
+            <figcaption class="l-styleguide__caption">Fond de page<br>#FFFFFF</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--background-alt"></span>
+            <figcaption class="l-styleguide__caption">Fond alterné<br>#F4F5F7</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--border"></span>
+            <figcaption class="l-styleguide__caption">Bordures<br>#E3E5EA</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--border-field"></span>
+            <figcaption class="l-styleguide__caption">Bordure de champ<br>#CBD0D8</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--primary"></span>
+            <figcaption class="l-styleguide__caption">Principale<br>#C8402A</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--primary-hover"></span>
+            <figcaption class="l-styleguide__caption">Survol<br>#A3311F</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--accent"></span>
+            <figcaption class="l-styleguide__caption">Accent<br>#F4C95D</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--error"></span>
+            <figcaption class="l-styleguide__caption">Erreur<br>#B3261E</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Scènes</p>
+        <div class="l-styleguide__examples">
+          <figure>
+            <span class="l-styleguide__stage l-styleguide__stage--lake">Scène du Lac</span>
+            <figcaption class="l-styleguide__caption">#1F4E8C</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__stage l-styleguide__stage--forest">Scène de la Forêt</span>
+            <figcaption class="l-styleguide__caption">#2F6B3A</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__stage l-styleguide__stage--kiosk">Le Kiosque</span>
+            <figcaption class="l-styleguide__caption">#B87A1E</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Typographie</p>
+        <div class="l-styleguide__examples l-styleguide__examples--baseline">
+          <span class="l-styleguide__sample l-styleguide__sample--title">Titre 40</span>
+          <span class="l-styleguide__sample l-styleguide__sample--subtitle">Sous-titre 28</span>
+          <span class="l-styleguide__sample l-styleguide__sample--lead">Introduction 20</span>
+          <span class="l-styleguide__sample l-styleguide__sample--body">Courant 16</span>
+          <span class="l-styleguide__sample l-styleguide__sample--small">Petit 14</span>
+        </div>
+      </div>
+
+      
+      
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Espacements</p>
+        <div class="l-styleguide__examples l-styleguide__examples--bottom">
+          <span class="l-styleguide__space l-styleguide__space--xs"></span><span class="l-styleguide__caption">8 px</span>
+          <span class="l-styleguide__space l-styleguide__space--sm"></span><span class="l-styleguide__caption">16 px</span>
+          <span class="l-styleguide__space l-styleguide__space--md"></span><span class="l-styleguide__caption">24 px</span>
+          <span class="l-styleguide__space l-styleguide__space--lg"></span><span class="l-styleguide__caption">40 px</span>
+          <span class="l-styleguide__space l-styleguide__space--xl"></span><span class="l-styleguide__caption">64 px</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

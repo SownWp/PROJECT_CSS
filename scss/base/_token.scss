@@ -38,4 +38,17 @@
   --spacing-md: #{map.get(v.$spacings, "md")};
   --spacing-lg: #{map.get(v.$spacings, "lg")};
   --spacing-xl: #{map.get(v.$spacings, "xl")};
+
+  
+--radius-sm: #{map.get(v.$radii, "sm")};
+--radius-md: #{map.get(v.$radii, "md")};
+--radius-pill: #{map.get(v.$radii, "pill")};
+
+--border-thin: #{map.get(v.$borders, "thin")};
+--border-thick: #{map.get(v.$borders, "thick")};
+
+--width-container: #{map.get(v.$dimensions, "container")};
+--width-label: #{map.get(v.$dimensions, "label")};
+--width-swatch: #{map.get(v.$dimensions, "swatch")};
+--width-stage: #{map.get(v.$dimensions, "stage")};
 }

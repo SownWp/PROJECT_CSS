@@ -1,4 +1,5 @@
-// Point d'entrée : charge les partials dans l'ordre SMACSS
+// Point d'entrée
 @use "base/reset";
 @use "base/token";
 @use "base/typography";
+@use "layout/styleguide";
