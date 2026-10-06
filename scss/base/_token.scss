@@ -1,0 +1,65 @@
+// Base : expose les jetons au navigateur sous forme de propriétés personnalisées.
+
+@use "sass:map";
+@use "../abstracts/variables" as v;
+
+:root {
+  
+  --color-text: #{map.get(v.$colors, "text")};
+  --color-text-body: #{map.get(v.$colors, "text-body")};
+  --color-text-muted: #{map.get(v.$colors, "text-muted")};
+  --color-background: #{map.get(v.$colors, "background")};
+  --color-background-alt: #{map.get(v.$colors, "background-alt")};
+  --color-border: #{map.get(v.$colors, "border")};
+  --color-border-field: #{map.get(v.$colors, "border-field")};
+  --color-primary: #{map.get(v.$colors, "primary")};
+  --color-primary-hover: #{map.get(v.$colors, "primary-hover")};
+  --color-on-primary: #{map.get(v.$colors, "on-primary")};
+  --color-accent: #{map.get(v.$colors, "accent")};
+  --color-error: #{map.get(v.$colors, "error")};
+  --color-badge-new-bg: #{map.get(v.$colors, "badge-new-bg")};
+  --color-badge-last-bg: #{map.get(v.$colors, "badge-last-bg")};
+  --color-badge-last: #{map.get(v.$colors, "badge-last")};
+  --color-badge-full-bg: #{map.get(v.$colors, "badge-full-bg")};
+
+  --color-lake: #{map.get(v.$stage-colors, "lake")};
+  --color-on-lake: #{map.get(v.$stage-colors, "on-lake")};
+  --color-forest: #{map.get(v.$stage-colors, "forest")};
+  --color-on-forest: #{map.get(v.$stage-colors, "on-forest")};
+  --color-kiosk: #{map.get(v.$stage-colors, "kiosk")};
+  --color-on-kiosk: #{map.get(v.$stage-colors, "on-kiosk")};
+
+  --size-display: #{map.get(v.$font-sizes, "display")};
+  --size-title: #{map.get(v.$font-sizes, "title")};
+  --size-subtitle: #{map.get(v.$font-sizes, "subtitle")};
+  --size-lead: #{map.get(v.$font-sizes, "lead")};
+  --size-body: #{map.get(v.$font-sizes, "body")};
+  --size-label: #{map.get(v.$font-sizes, "label")};
+  --size-small: #{map.get(v.$font-sizes, "small")};
+  --size-caption: #{map.get(v.$font-sizes, "caption")};
+
+  --spacing-xs: #{map.get(v.$spacings, "xs")};
+  --spacing-sm: #{map.get(v.$spacings, "sm")};
+  --spacing-md: #{map.get(v.$spacings, "md")};
+  --spacing-lg: #{map.get(v.$spacings, "lg")};
+  --spacing-xl: #{map.get(v.$spacings, "xl")};
+
+  
+--radius-sm: #{map.get(v.$radii, "sm")};
+--radius-md: #{map.get(v.$radii, "md")};
+--radius-pill: #{map.get(v.$radii, "pill")};
+
+--border-thin: #{map.get(v.$borders, "thin")};
+--border-thick: #{map.get(v.$borders, "thick")};
+
+--width-container: #{map.get(v.$dimensions, "container")};
+--width-label: #{map.get(v.$dimensions, "label")};
+--width-swatch: #{map.get(v.$dimensions, "swatch")};
+--width-stage: #{map.get(v.$dimensions, "stage")};
+--width-card: #{map.get(v.$dimensions, "card")};
+--width-card-compact: #{map.get(v.$dimensions, "card-compact")};
+--width-card-featured: #{map.get(v.$dimensions, "card-featured")};
+--width-card-horizontal: #{map.get(v.$dimensions, "card-horizontal")};
+--width-pass: #{map.get(v.$dimensions, "pass")};
+--width-banner: #{map.get(v.$dimensions, "banner")};
+}

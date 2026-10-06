@@ -1,0 +1,42 @@
+// Module : bandeau d'accès à une scène
+
+.scene-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-xs);
+  width: min(100%, var(--width-banner));
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  color: var(--color-on-primary);
+
+  &__title {
+    font-size: var(--size-lead);
+    color: inherit;
+  }
+
+  &__text {
+    font-size: var(--size-small);
+  }
+
+  &__link {
+    margin-top: var(--spacing-sm);
+    color: inherit;
+    font-size: var(--size-small);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  &--lake {
+    background-color: var(--color-lake);
+  }
+
+  &--forest {
+    background-color: var(--color-forest);
+  }
+
+  &--kiosk {
+    background-color: var(--color-kiosk);
+    color: var(--color-on-kiosk);
+  }
+}

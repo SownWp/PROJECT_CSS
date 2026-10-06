@@ -1,0 +1,28 @@
+// Module : filtres par scène
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+
+  &__item {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border: var(--border-thin) solid var(--color-border-field);
+    border-radius: var(--radius-pill);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-size: var(--size-small);
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+      border-color: var(--color-text);
+    }
+
+    &.is-active {
+      border-color: var(--color-text);
+      background-color: var(--color-text);
+      color: var(--color-on-primary);
+    }
+  }
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliothèque de composants · Résonances</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="l-styleguide">
+
+  <header class="l-styleguide__hero">
+    <div class="l-styleguide__container">
+      <p class="l-styleguide__breadcrumb">Accueil / Bibliothèque de composants</p>
+      <h1 class="l-styleguide__title">Bibliothèque de composants</h1>
+      <p class="l-styleguide__intro">Tous les composants du site, avec leurs variantes et leurs états.</p>
+    </div>
+  </header>
+
+  <main class="l-styleguide__container">
+
+    <nav class="l-styleguide__toc" aria-label="Sommaire">
+      <a class="l-styleguide__toc-link" href="#jetons">Jetons</a>
+      <a class="l-styleguide__toc-link" href="#boutons">Boutons</a>
+      <a class="l-styleguide__toc-link" href="#badges">Badges</a>
+      <a class="l-styleguide__toc-link" href="#cartes">Cartes</a>
+      <a class="l-styleguide__toc-link" href="#formulaires">Formulaires</a>
+      <a class="l-styleguide__toc-link" href="#filtres">Filtres</a>
+      <a class="l-styleguide__toc-link" href="#faq">Questions fréquentes</a>
+    </nav>
+
+    <section class="l-styleguide__section" id="jetons">
+      <h2 class="l-styleguide__section-title">Jetons</h2>
+      <p class="l-styleguide__section-intro">Couleurs, typographie et espacements utilisés par tous les composants.</p>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Couleurs</p>
+        <div class="l-styleguide__examples">
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--text"></span>
+            <figcaption class="l-styleguide__caption">Texte principal</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--text-body"></span>
+            <figcaption class="l-styleguide__caption">Texte courant</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--text-muted"></span>
+            <figcaption class="l-styleguide__caption">Texte secondaire</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--background-alt"></span>
+            <figcaption class="l-styleguide__caption">Fond alterné</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--border"></span>
+            <figcaption class="l-styleguide__caption">Bordures</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--primary"></span>
+            <figcaption class="l-styleguide__caption">Principale</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--primary-hover"></span>
+            <figcaption class="l-styleguide__caption">Survol</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--accent"></span>
+            <figcaption class="l-styleguide__caption">Accent</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__swatch l-styleguide__swatch--error"></span>
+            <figcaption class="l-styleguide__caption">Erreur</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Scènes</p>
+        <div class="l-styleguide__examples">
+          <figure>
+            <span class="l-styleguide__stage l-styleguide__stage--lake">Scène du Lac</span>
+            <figcaption class="l-styleguide__caption">#1F4E8C</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__stage l-styleguide__stage--forest">Scène de la Forêt</span>
+            <figcaption class="l-styleguide__caption">#2F6B3A</figcaption>
+          </figure>
+          <figure>
+            <span class="l-styleguide__stage l-styleguide__stage--kiosk">Le Kiosque</span>
+            <figcaption class="l-styleguide__caption">#B87A1E</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Typographie</p>
+        <div class="l-styleguide__examples l-styleguide__examples--baseline">
+          <span class="l-styleguide__sample l-styleguide__sample--title">Titre 40</span>
+          <span class="l-styleguide__sample l-styleguide__sample--subtitle">Sous-titre 28</span>
+          <span class="l-styleguide__sample l-styleguide__sample--lead">Introduction 20</span>
+          <span class="l-styleguide__sample l-styleguide__sample--body">Courant 16</span>
+          <span class="l-styleguide__sample l-styleguide__sample--small">Petit 14</span>
+        </div>
+      </div>
+
+      
+      
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Espacements</p>
+        <div class="l-styleguide__examples l-styleguide__examples--bottom">
+          <span class="l-styleguide__space l-styleguide__space--xs"></span><span class="l-styleguide__caption">8 px</span>
+          <span class="l-styleguide__space l-styleguide__space--sm"></span><span class="l-styleguide__caption">16 px</span>
+          <span class="l-styleguide__space l-styleguide__space--md"></span><span class="l-styleguide__caption">24 px</span>
+          <span class="l-styleguide__space l-styleguide__space--lg"></span><span class="l-styleguide__caption">40 px</span>
+          <span class="l-styleguide__space l-styleguide__space--xl"></span><span class="l-styleguide__caption">64 px</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="l-styleguide__section" id="boutons">
+      <h2 class="l-styleguide__section-title">Boutons</h2>
+      <p class="l-styleguide__section-intro">Un composant de base, des variantes de couleur et de taille, une icône facultative et des états.</p>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Bouton de base</p>
+        <div class="l-styleguide__examples">
+          <a class="button" href="#">Bouton de base</a>
+          <a class="button button--primary" href="#">Réserver</a>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Couleurs</p>
+        <div class="l-styleguide__examples">
+          <a class="button button--primary" href="#">Principal</a>
+          <a class="button button--secondary" href="#">Secondaire</a>
+          <a class="button" href="#">Contour</a>
+          <span class="l-styleguide__on-dark">
+            <a class="button button--light" href="#">Clair</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Tailles</p>
+        <div class="l-styleguide__examples">
+          <a class="button button--primary button--small" href="#">Petit</a>
+          <a class="button button--primary" href="#">Moyen</a>
+          <a class="button button--primary button--large" href="#">Grand</a>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Avec icône</p>
+        <div class="l-styleguide__examples">
+          <a class="button button--primary" href="#">
+            <svg class="button__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            Ajouter au programme
+          </a>
+          <a class="button button--secondary" href="#">
+            <svg class="button__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="4" width="12" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 4v8" stroke="currentColor" stroke-width="1.5"/></svg>
+            Réserver
+          </a>
+          <a class="button button--icon" href="#" aria-label="Ajouter aux favoris">
+            <svg class="button__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13s-5-3.2-5-6.2A2.8 2.8 0 0 1 8 5a2.8 2.8 0 0 1 5 1.8C13 9.8 8 13 8 13z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+          <a class="button" href="#">
+            Suivant
+            <svg class="button__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Combinaisons et états</p>
+        <div class="l-styleguide__examples">
+          <figure class="l-styleguide__state">
+            <a class="button button--secondary button--large" href="#">Secondaire grand</a>
+            <figcaption class="l-styleguide__caption">Combinaison</figcaption>
+          </figure>
+          <figure class="l-styleguide__state">
+            <a class="button button--primary is-hover" href="#">Survol</a>
+            <figcaption class="l-styleguide__caption">Survol</figcaption>
+          </figure>
+          <figure class="l-styleguide__state">
+            <a class="button button--primary is-focus" href="#">Focus clavier</a>
+            <figcaption class="l-styleguide__caption">Focus clavier</figcaption>
+          </figure>
+          <figure class="l-styleguide__state">
+            <button class="button button--primary" type="button" disabled>Désactivé</button>
+            <figcaption class="l-styleguide__caption">Désactivé</figcaption>
+          </figure>
+          <figure class="l-styleguide__state">
+            <button class="button button--primary button--loading" type="button" aria-label="Chargement"></button>
+            <figcaption class="l-styleguide__caption">Chargement</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="l-styleguide__section" id="badges">
+      <h2 class="l-styleguide__section-title">Badges</h2>
+      <p class="l-styleguide__section-intro">Pour signaler une scène, un statut ou un nombre.</p>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Badge de base</p>
+        <div class="l-styleguide__examples">
+          <span class="badge">Badge</span>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Scènes</p>
+        <div class="l-styleguide__examples">
+          <span class="badge badge--lake">Scène du Lac</span>
+          <span class="badge badge--forest">Scène de la Forêt</span>
+          <span class="badge badge--kiosk">Le Kiosque</span>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Statuts</p>
+        <div class="l-styleguide__examples">
+          <span class="badge badge--new">Nouveau</span>
+          <span class="badge badge--last">Dernières places</span>
+          <span class="badge badge--full">Complet</span>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Tailles</p>
+        <div class="l-styleguide__examples">
+          <span class="badge badge--lake badge--small">Petit</span>
+          <span class="badge badge--lake badge--large">Grand</span>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Styles</p>
+        <div class="l-styleguide__examples">
+          <span class="badge badge--forest">Plein arrondi</span>
+          <span class="badge badge--outline">Contour</span>
+          <span class="badge badge--kiosk badge--square">Angles droits</span>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Compteur</p>
+        <div class="l-styleguide__examples">
+          <span class="badge badge--program">
+            <svg class="button__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13s-5-3.2-5-6.2A2.8 2.8 0 0 1 8 5a2.8 2.8 0 0 1 5 1.8C13 9.8 8 13 8 13z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+            Mon programme
+            <span class="badge__count">3</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="l-styleguide__section" id="cartes">
+      <h2 class="l-styleguide__section-title">Cartes</h2>
+      <p class="l-styleguide__section-intro">La carte d’artiste, ses variantes, et les autres cartes du site.</p>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Carte de base</p>
+        <div>
+          <div class="l-styleguide__examples">
+            <article class="card card--lake">
+              <div class="card__media"></div>
+              <div class="card__body">
+                <span class="badge badge--lake">Scène du Lac</span>
+                <h3 class="card__title">Marée Basse</h3>
+                <p class="card__meta">Rock · Ven. 9 · 20 h 15</p>
+                <a class="card__link" href="#">Voir la fiche →</a>
+              </div>
+            </article>
+            <article class="card card--plain card--kiosk">
+              <div class="card__body">
+                <span class="badge badge--kiosk">Le Kiosque</span>
+                <h3 class="card__title">Clara Ninon Quartet</h3>
+                <p class="card__meta">Jazz vocal · Ven. 9 · 18 h 30</p>
+                <a class="card__link" href="#">Voir la fiche →</a>
+              </div>
+            </article>
+            <article class="card card--kiosk">
+              <div class="card__media"></div>
+              <div class="card__body">
+                <span class="badge badge--kiosk">Le Kiosque</span>
+                <h3 class="card__title">Cordes Sensibles et l’Ensemble du Kiosque</h3>
+                <p class="card__meta">Acoustique · Sam. 10 · 17 h 30</p>
+                <div class="card__actions">
+                  <a class="button button--secondary button--small" href="#">Voir la fiche</a>
+                  <a class="button button--small" href="#">+ Ajouter</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <p class="l-styleguide__caption l-styleguide__note">Avec image · sans image · titre sur deux lignes et pied avec actions</p>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Variantes</p>
+        <div>
+          <div class="l-styleguide__examples">
+            <article class="card card--featured card--lake">
+              <div class="card__media"></div>
+              <div class="card__body">
+                <span class="badge badge--lake">Scène du Lac</span>
+                <h3 class="card__title">LUNE ROUSSE</h3>
+                <p class="card__meta">Pop · Ven. 9 · 22 h 30</p>
+                <a class="card__link" href="#">Voir la fiche →</a>
+              </div>
+            </article>
+            <article class="card card--compact card--forest">
+              <div class="card__media"></div>
+              <div class="card__body">
+                <span class="badge badge--forest">Scène de la Forêt</span>
+                <h3 class="card__title">Brume</h3>
+                <p class="card__meta">House · Sam. 10 · 01 h 00</p>
+                <a class="card__link" href="#">Voir la fiche →</a>
+              </div>
+            </article>
+            <article class="card card--compact card--forest">
+              <div class="card__media"></div>
+              <div class="card__body">
+                <span class="badge badge--forest">Scène de la Forêt</span>
+                <h3 class="card__title">Sylve</h3>
+                <p class="card__meta">Ambient · Dim. 11 · 20 h 00</p>
+                <a class="card__link" href="#">Voir la fiche →</a>
+              </div>
+            </article>
+          </div>
+          <p class="l-styleguide__caption l-styleguide__note">Mise en avant (têtes d’affiche) · compacte (autres artistes)</p>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Horizontale</p>
+        <div>
+          <div class="l-styleguide__examples">
+            <article class="card card--horizontal card--forest">
+              <div class="card__media"></div>
+              <div class="card__body">
+                <span class="badge badge--forest">Scène de la Forêt</span>
+                <h3 class="card__title">Vertige 808</h3>
+                <p class="card__meta">Techno · Ven. 9 · 23 h 30</p>
+                <p class="card__text">Un set entre house et disco, pensé pour la clairière de la forêt.</p>
+                <a class="card__link" href="#">Voir la fiche →</a>
+              </div>
+            </article>
+          </div>
+          <p class="l-styleguide__caption l-styleguide__note">Image à gauche, contenu à droite : écrans larges et résultats de recherche</p>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Autres cartes</p>
+        <div>
+          <div class="l-styleguide__examples">
+            <article class="pass">
+              <h3 class="pass__title">Pass 1 jour</h3>
+              <p class="pass__price">49 €</p>
+              <ul class="pass__list">
+                <li class="pass__item">Accès aux trois scènes</li>
+                <li class="pass__item">Navette gratuite</li>
+                <li class="pass__item">Bracelet nominatif</li>
+              </ul>
+              <a class="button pass__action" href="#">Choisir</a>
+            </article>
+            <article class="pass pass--highlight">
+              <span class="badge badge--kiosk pass__flag">Le plus choisi</span>
+              <h3 class="pass__title">Pass 3 jours</h3>
+              <p class="pass__price">119 €</p>
+              <ul class="pass__list">
+                <li class="pass__item">Accès aux trois scènes</li>
+                <li class="pass__item">Navette gratuite</li>
+                <li class="pass__item">Accès prioritaire au Kiosque</li>
+              </ul>
+              <a class="button button--primary pass__action" href="#">Choisir</a>
+            </article>
+            <article class="scene-banner scene-banner--lake">
+              <h3 class="scene-banner__title">Scène du Lac</h3>
+              <p class="scene-banner__text">Pop et rock</p>
+              <a class="scene-banner__link" href="#">Découvrir la scène →</a>
+            </article>
+            <article class="info">
+              <span class="info__index">1</span>
+              <div>
+                <h3 class="info__title">Accès</h3>
+                <p class="info__text">En train : gare de Saint-Aulnes,<br>puis navette gratuite.</p>
+              </div>
+            </article>
+          </div>
+          <p class="l-styleguide__caption l-styleguide__note">Formules de pass (normale et mise en avant) · bandeau d’accès à une scène · bloc d’informations pratiques</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="l-styleguide__section" id="formulaires">
+      <h2 class="l-styleguide__section-title">Formulaires</h2>
+      <p class="l-styleguide__section-intro">Champ de saisie, liste déroulante et case à cocher, avec leurs états.</p>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Champ de saisie</p>
+        <div class="l-styleguide__examples">
+          <label class="field">
+            <span class="field__label">Nom</span>
+            <input class="field__input" type="text" value="Durand">
+            <span class="field__help">Texte d’aide</span>
+          </label>
+          <label class="field">
+            <span class="field__label">Formule</span>
+            <input class="field__input is-focus" type="text" value="Pass 3 jours">
+            <span class="field__help">Focus</span>
+          </label>
+          <label class="field has-error">
+            <span class="field__label">E-mail</span>
+            <input class="field__input" type="email" value="camille.durand@">
+            <span class="field__error">Adresse e-mail invalide.</span>
+          </label>
+          <label class="field">
+            <span class="field__label">Code promo</span>
+            <input class="field__input" type="text" value="Indisponible" disabled>
+            <span class="field__help">Désactivé</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Liste et case</p>
+        <div class="l-styleguide__examples">
+          <label class="field">
+            <span class="field__label">Nombre de pass</span>
+            <select class="field__input">
+              <option>1</option>
+              <option selected>2</option>
+              <option>3</option>
+            </select>
+          </label>
+          <label class="field field--check">
+            <input type="checkbox" checked>
+            <span>J’accepte les conditions générales</span>
+          </label>
+          <label class="field field--check">
+            <input type="checkbox">
+            <span>Recevoir la newsletter</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <section class="l-styleguide__section" id="filtres">
+      <h2 class="l-styleguide__section-title">Filtres</h2>
+      <p class="l-styleguide__section-intro">Groupe de boutons qui filtre le programme ; un seul filtre est sélectionné à la fois.</p>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Groupe de filtres</p>
+        <div>
+          <div class="filter">
+            <button class="filter__item" type="button">Toutes les scènes</button>
+            <button class="filter__item is-active" type="button">Scène du Lac</button>
+            <button class="filter__item" type="button">Scène de la Forêt</button>
+            <button class="filter__item" type="button">Le Kiosque</button>
+          </div>
+          <p class="l-styleguide__caption l-styleguide__note">Normal · sélectionné (ici « Scène du Lac »)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="l-styleguide__section" id="faq">
+      <h2 class="l-styleguide__section-title">Questions fréquentes</h2>
+      <p class="l-styleguide__section-intro">Accordéon : chaque question s’ouvre et se ferme indépendamment.</p>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Fermée</p>
+        <div class="l-styleguide__examples">
+          <details class="faq">
+            <summary class="faq__question">Les enfants sont-ils acceptés ?</summary>
+          </details>
+        </div>
+      </div>
+
+      <div class="l-styleguide__row">
+        <p class="l-styleguide__label">Ouverte</p>
+        <div class="l-styleguide__examples">
+          <details class="faq is-open" open>
+            <summary class="faq__question">Puis-je revendre mon pass ?</summary>
+            <p class="faq__answer">Oui, via la plateforme officielle de revente, jusqu’à 48 heures avant le festival. Le pass est alors réédité au nom du nouvel acheteur.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
