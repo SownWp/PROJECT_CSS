@@ -1,0 +1,50 @@
+// Module : questions fréquentes
+
+.faq {
+  width: min(100%, var(--width-container));
+  border: var(--border-thin) solid var(--color-border-field);
+  border-radius: var(--radius-md);
+  background-color: var(--color-background);
+
+  & + & {
+    margin-top: var(--spacing-sm);
+  }
+
+  &__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    color: var(--color-text);
+    font-size: var(--size-body);
+    font-weight: 700;
+    list-style: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      content: "";
+      flex-shrink: 0;
+      width: var(--spacing-xs);
+      height: var(--spacing-xs);
+      border-right: var(--border-thick) solid var(--color-text);
+      border-bottom: var(--border-thick) solid var(--color-text);
+      transform: rotate(45deg);
+    }
+  }
+
+  &__answer {
+    padding: 0 var(--spacing-md) var(--spacing-sm);
+    color: var(--color-text-body);
+    font-size: var(--size-small);
+  }
+
+  &[open] &__question::after,
+  &.is-open &__question::after {
+    transform: rotate(225deg);
+  }
+}

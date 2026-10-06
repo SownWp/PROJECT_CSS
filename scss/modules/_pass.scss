@@ -1,0 +1,81 @@
+// Module : formules de pass
+
+.pass {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  width: min(100%, var(--width-pass));
+  padding: var(--spacing-md);
+  border: var(--border-thin) solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-background);
+
+  &__title {
+    color: var(--color-text);
+    font-size: var(--size-lead);
+  }
+
+  &__price {
+    color: var(--color-primary);
+    font-size: var(--size-title);
+    font-weight: 800;
+    line-height: 1;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    padding-top: var(--spacing-sm);
+    border-top: var(--border-thin) solid var(--color-border);
+    list-style: none;
+  }
+
+  &__item {
+    font-size: var(--size-small);
+
+    &::before {
+      content: "✓";
+      margin-right: var(--spacing-xs);
+      color: var(--color-forest);
+      font-weight: 700;
+    }
+  }
+
+  &__action {
+    width: 100%;
+    margin-top: auto;
+  }
+
+  &--highlight {
+    margin-top: var(--spacing-sm);
+    border-color: var(--color-text);
+    background-color: var(--color-text);
+    color: var(--color-on-primary);
+
+    .pass__title,
+    .pass__item {
+      color: var(--color-on-primary);
+    }
+
+    .pass__price {
+      color: var(--color-accent);
+    }
+
+    .pass__item::before {
+      color: var(--color-accent);
+    }
+
+    .pass__list {
+      border-top-color: var(--color-text-body);
+    }
+  }
+
+  &__flag {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

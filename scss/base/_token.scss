@@ -14,8 +14,13 @@
   --color-border-field: #{map.get(v.$colors, "border-field")};
   --color-primary: #{map.get(v.$colors, "primary")};
   --color-primary-hover: #{map.get(v.$colors, "primary-hover")};
+  --color-on-primary: #{map.get(v.$colors, "on-primary")};
   --color-accent: #{map.get(v.$colors, "accent")};
   --color-error: #{map.get(v.$colors, "error")};
+  --color-badge-new-bg: #{map.get(v.$colors, "badge-new-bg")};
+  --color-badge-last-bg: #{map.get(v.$colors, "badge-last-bg")};
+  --color-badge-last: #{map.get(v.$colors, "badge-last")};
+  --color-badge-full-bg: #{map.get(v.$colors, "badge-full-bg")};
 
   --color-lake: #{map.get(v.$stage-colors, "lake")};
   --color-on-lake: #{map.get(v.$stage-colors, "on-lake")};
@@ -51,4 +56,10 @@
 --width-label: #{map.get(v.$dimensions, "label")};
 --width-swatch: #{map.get(v.$dimensions, "swatch")};
 --width-stage: #{map.get(v.$dimensions, "stage")};
+--width-card: #{map.get(v.$dimensions, "card")};
+--width-card-compact: #{map.get(v.$dimensions, "card-compact")};
+--width-card-featured: #{map.get(v.$dimensions, "card-featured")};
+--width-card-horizontal: #{map.get(v.$dimensions, "card-horizontal")};
+--width-pass: #{map.get(v.$dimensions, "pass")};
+--width-banner: #{map.get(v.$dimensions, "banner")};
 }

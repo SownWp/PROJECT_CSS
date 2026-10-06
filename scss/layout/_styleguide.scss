@@ -111,6 +111,14 @@
     color: var(--color-text-muted);
   }
 
+  &__state {
+    text-align: center;
+  }
+
+  &__note {
+    margin-top: var(--spacing-sm);
+  }
+
  
   &__swatch {
     display: block;
@@ -187,6 +195,12 @@
     }
   }
 
+
+  &__on-dark {
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    background-color: var(--color-text);
+  }
 
   &__space {
     display: block;

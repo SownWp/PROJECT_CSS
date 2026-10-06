@@ -11,8 +11,13 @@ $colors: (
   "border-field": #cbd0d8,
   "primary": #c8402a,
   "primary-hover": #a3311f,
+  "on-primary": #ffffff,
   "accent": #f4c95d,
   "error": #b3261e,
+  "badge-new-bg": #e6f3ea,
+  "badge-last-bg": #f7efd6,
+  "badge-last": #8a5e16,
+  "badge-full-bg": #f8e4e1,
 );
 
 // Couleurs des scènes et couleur du texte posé dessus
@@ -81,7 +86,13 @@ $dimensions: (
   "container": 1200px, 
   "label": 240px, 
   "swatch": 48px, 
-  "stage": 180px, 
+  "stage": 180px,
+  "card": 360px,
+  "card-compact": 280px,
+  "card-featured": 420px,
+  "card-horizontal": 720px,
+  "pass": 300px,
+  "banner": 280px,
 );
 
 

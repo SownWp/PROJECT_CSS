@@ -1,0 +1,88 @@
+// Module : badges
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: var(--border-thin) solid transparent;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-background-alt);
+  color: var(--color-text-muted);
+  font-size: var(--size-small);
+  font-weight: 700;
+  line-height: 1;
+
+  &--lake {
+    background-color: var(--color-lake);
+    color: var(--color-on-lake);
+  }
+
+  &--forest {
+    background-color: var(--color-forest);
+    color: var(--color-on-forest);
+  }
+
+  &--kiosk {
+    background-color: var(--color-kiosk);
+    color: var(--color-on-kiosk);
+  }
+
+  &--new {
+    background-color: var(--color-badge-new-bg);
+    color: var(--color-forest);
+  }
+
+  &--last {
+    background-color: var(--color-badge-last-bg);
+    color: var(--color-badge-last);
+  }
+
+  &--full {
+    background-color: var(--color-badge-full-bg);
+    color: var(--color-error);
+  }
+
+  &--small {
+    padding: 0 var(--spacing-xs);
+    font-size: var(--size-caption);
+  }
+
+  &--large {
+    padding: var(--spacing-xs) var(--spacing-md);
+    font-size: var(--size-body);
+  }
+
+  &--outline {
+    background-color: var(--color-background);
+    border-color: var(--color-forest);
+    color: var(--color-forest);
+  }
+
+  &--square {
+    border-radius: 0;
+  }
+
+  &--program {
+    position: relative;
+    padding-right: var(--spacing-md);
+    background-color: var(--color-text);
+    color: var(--color-on-primary);
+  }
+
+  &__count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: grid;
+    place-items: center;
+    min-width: var(--spacing-md);
+    height: var(--spacing-md);
+    padding-inline: var(--spacing-xs);
+    border-radius: var(--radius-pill);
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    font-size: var(--size-caption);
+    transform: translate(40%, -40%);
+  }
+}

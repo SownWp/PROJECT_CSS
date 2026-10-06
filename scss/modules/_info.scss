@@ -1,0 +1,31 @@
+// Module : bloc d'information
+
+.info {
+  display: flex;
+  gap: var(--spacing-sm);
+  max-width: var(--width-card);
+  padding: var(--spacing-sm);
+  border: var(--border-thin) solid var(--color-border);
+  border-radius: var(--radius-md);
+
+  &__index {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: var(--spacing-lg);
+    height: var(--spacing-lg);
+    border-radius: var(--radius-pill);
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    font-weight: 700;
+  }
+
+  &__title {
+    font-size: var(--size-lead);
+  }
+
+  &__text {
+    margin-top: var(--spacing-xs);
+    font-size: var(--size-small);
+  }
+}
